@@ -1,6 +1,6 @@
 return {
   "neovim/nvim-lspconfig",
-  enable = true,
+  enabled = true,
   config = function()
     vim.diagnostic.config({
       virtual_text = { current_line = true }
